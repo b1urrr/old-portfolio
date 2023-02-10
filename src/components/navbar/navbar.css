@@ -45,6 +45,22 @@
 
 }
 
+.pf__navbar-links_container p:hover,
+.pf__navbar-sign p:hover, 
+.pf__navbar-menu_container p:hover {
+    animation: blinker_navbar 1s linear infinite;
+    color: red;
+  }
+  
+  @keyframes blinker_navbar {
+    50% {
+      opacity: 0.7;
+    }
+    from { color: white; }
+    to { color: cyan; }
+  
+}
+
 .pf__navbar-menu {
     margin-left: 1rem;
     display: none;

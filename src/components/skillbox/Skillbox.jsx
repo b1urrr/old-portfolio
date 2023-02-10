@@ -1,11 +1,16 @@
 import React from 'react';
 import './skillbox.css';
 
-function Skillbox() {
+function Skillbox( { imgurl, name } ) {
 
     return (
-      <div>
-        <h1>Skillbox</h1>
+      <div className='pf__skillbox'>
+        <div className='pf__skillbox-img'>
+          <img src={imgurl} alt="skill" />
+        </div>
+        <div className='pf__skillbox-name'>
+          <h1>{name}</h1>
+        </div>
       </div>
     )
   }

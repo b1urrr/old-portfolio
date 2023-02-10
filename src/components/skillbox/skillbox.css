@@ -1,0 +1,34 @@
+.pf__skillbox {
+    border: 2px solid var(--color-third);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+    background: var(--color-primary);
+    border-radius: 25px;
+}
+
+.pf__skillbox:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    animation: blinker_border 1s linear infinite;
+  }
+  
+  @keyframes blinker_border {
+    50% {
+      border-color: cyan;
+    }
+  }
+
+
+.pf__skillbox-img img {
+    width: 100px;
+}
+
+.pf__skillbox-name h1 {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 5px;
+}

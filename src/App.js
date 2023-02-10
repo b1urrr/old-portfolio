@@ -9,14 +9,12 @@ function App() {
       <div className='gradient__bg'>
       <Navbar />
       <Header />
-
       <About />
       <Skills />
       <Projects />
       <Experience />
       <Contact />
       <Footer />
-      
       </div>
     </div>
   );

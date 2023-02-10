@@ -1,0 +1,28 @@
+.pf__skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pf__skills-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10rem;
+}
+
+.pf__skills-box_item {
+    padding: 1rem;
+}
+
+.pf_skills-header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.pf_skills-header h1 {
+    font-family: var(--font-family);
+    font-size: 40px;
+}
