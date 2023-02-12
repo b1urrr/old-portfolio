@@ -26,3 +26,9 @@
     font-family: var(--font-family);
     font-size: 40px;
 }
+
+@media screen and (max-width: 1200px ) {
+    .pf__skills-box {
+        padding: 0;
+    }
+}

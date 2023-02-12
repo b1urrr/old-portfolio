@@ -3,13 +3,13 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import logo from '../../assets/logo.png'
 
+
 const Menu = () => (
   <>
     <p><a href='#home'>Home</a></p>
-    <p><a href='#skills'>Skills</a></p>
-    <p><a href='#projects'>Projects</a></p>
     <p><a href='#about'>About</a></p>
-    <p><a href='#Contact'>Contact</a></p>
+    <p><a href='#skills'>Skills</a></p>
+    <p><a href='#experience'>Experience</a></p>
   </>
 )
 

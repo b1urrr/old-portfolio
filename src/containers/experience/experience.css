@@ -1,0 +1,18 @@
+.pf__experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pf__experience-header {
+    display: flex;
+}
+
+.pf__experience-header h1 {
+    font-family: var(--font-family);
+    font-size: 40px;
+}
+
+
+
