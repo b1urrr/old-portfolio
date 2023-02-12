@@ -23,7 +23,7 @@
 }
 
 .pf__about-container_image img {
-    width: 200px;
+    width: 300px;
 }
 
 
@@ -31,18 +31,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 40%;
-}
-
-.pf__about-container_content h1 {
-    font-family: var(--font-family);
-    font-size: 40px;
-    padding-bottom: 1rem;
+    max-width: 60%;
 }
 
 .pf__about-container_content p {
     font-family: var(--font-family);
-    font-size: 17px;
+    color: var(--color-fourth);
+    font-size: 18px;
 }
 
 @media screen and (max-width: 950px) {
