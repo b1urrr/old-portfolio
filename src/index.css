@@ -2,14 +2,10 @@
 
 :root {
   --font-family: 'Montserrat', sans-serif;
-
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
   
   --color-bg: #00000D;
   --color-footer : #02000c;
   --color-primary: #001830;
-  --color-second: #FFBF00;
+  --color-second: #b3deff;
   --color-third: #32718E;
-  --color-fourth: #b3deff;
 }

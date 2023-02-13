@@ -3,6 +3,15 @@ import { About, Experience, Footer, Header, Projects, Skills } from './container
 import { Navbar, Project, Skillbox } from './components';
 import './App.css';
 
+// To do list 
+//  -- clear up the code
+//  -- use an API (vasko)
+//  -- create your own API as bonus points
+//  -- fix the skills section to use an array
+//  -- try to use more JS for bonus points
+//  -- fix indentation where it is not yet fixed
+
+
 function App() {
   return (
     <div className='App'>

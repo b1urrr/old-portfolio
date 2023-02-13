@@ -39,7 +39,7 @@
     width:20px;
     height:20px;
     border-radius:50px;
-    background: var(--color-fourth);
+    background: var(--color-second);
     box-shadow: 0 0 8px var(--color-third), inset 0 0 8px var(--color-third);
     margin: 15px 0 15px 0;
 }
@@ -66,14 +66,14 @@
 
 .pf__exp-content_text h3 {
     font-family: var(--font-family);
-    color: var(--color-fourth);
+    color: var(--color-second);
     font-weight: 600;
     padding-bottom: 0.2rem;
 }
 
 .pf__exp-content_text p {
     font-family: var(--font-family);
-    color: var(--color-fourth)
+    color: var(--color-second)
 }
 
 .pf__exp-content_year:hover {
