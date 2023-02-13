@@ -13,20 +13,76 @@ import python from '../../assets/icons/python.svg';
 import react from '../../assets/icons/react.svg';
 import selenium from '../../assets/icons/selenium.svg';
 
-
-export { 
-    bootstrap,
-    css3,
-    flask,
-    git,
-    github,
-    html5,
-    illustrator,
-    js,
-    mysql,
-    nodejs,
-    photoshop,
-    python,
-    react,
-    selenium
-}
+const boxItem = [
+    {
+      "imgurl": react,
+      "name": "React.js",
+      "id": 1
+    },
+    {
+      "imgurl": nodejs,
+      "name": "Node.js",
+      "id": 2
+    },
+    {
+      "imgurl": js,
+      "name": "JavaScript",
+      "id": 3
+    },
+    {
+      "imgurl": css3,
+      "name": "CSS",
+      "id": 4
+    },
+    {
+      "imgurl": html5,
+      "name": "HTML",
+      "id": 5
+    },
+    {
+      "imgurl": bootstrap,
+      "name": "Bootstrap",
+      "id": 6
+    },
+    {
+      "imgurl": python,
+      "name": "Python",
+      "id": 7
+    },
+    {
+      "imgurl": flask,
+      "name": "Flask",
+      "id": 8
+    },
+    {
+      "imgurl": mysql,
+      "name": "MySQL",
+      "id": 9
+    },
+    {
+      "imgurl": selenium,
+      "name": "Selenium",
+      "id": 10
+    },
+    {
+      "imgurl": git,
+      "name": "Git",
+      "id": 11
+    },
+    {
+      "imgurl": github,
+      "name": "GitHub",
+      "id": 12
+    },
+    {
+      "imgurl": illustrator,
+      "name": "Adobe Illustrator",
+      "id": 13
+    },
+    {
+      "imgurl": photoshop,
+      "name": "Adobe Photoshop",
+      "id": 14
+    },
+  ]
+export default boxItem;
