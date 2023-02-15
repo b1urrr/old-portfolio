@@ -12,7 +12,7 @@ function Skills() {
         </div>
         <div className='pf__skills-box'>
           {boxItem.map((item) => 
-          <div className='pf__skills-box_item'> <Skillbox imgurl={item.imgurl} name={item.name} /></div> 
+          <div className='pf__skills-box_item'> <Skillbox imgurl={item.imgurl} name={item.name} key={item.id} /></div> 
           )}
         </div>
       </div>
