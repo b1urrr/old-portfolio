@@ -17,7 +17,7 @@ function About() {
             <br></br>
             <p>Then was the disappointment. Most python developers are working with data, numbers crunching and analytics. I'm not interested in that. Where to now? I have some back-end experience - a front-end technology it is. After all I have a pretty solid design foundation. I bought another course on Udemy, this time Web Development. Same teacher, same concepts, different technology. Long story short - I devoured the course in less than a month.</p>
             <br></br>
-            <p>Now I'm working on building a solid portfolio and putting all of my newly acquired skills and passion to use in a new position. <br></br><br></br>Stay tuned for updates! 😎</p>
+            <p>Now I'm working on building a solid portfolio and putting all of my newly acquired skills and passion to use in a new position. <br></br><br></br>Stay tuned for updates!! 😎</p>
           </div>
         </div>
       </div>
