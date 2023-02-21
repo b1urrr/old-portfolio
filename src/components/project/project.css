@@ -80,4 +80,6 @@
 
 .pf__project-box_image img {
     width: 300px;
+    border-radius: 15px;
+    border: 2px solid var(--color-third);
 }
