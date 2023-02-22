@@ -45,6 +45,10 @@
     padding-bottom: 0.5em;
 }
 
+.pf__project-box_content-description h1:hover {
+    color: cyan;
+}
+
 .pf__project-box_content-description p {
     font-family: var(--font-family);
     font-size: 15px;
@@ -80,6 +84,7 @@
 
 .pf__project-box_image img {
     width: 300px;
+    height: 300px;
     border-radius: 15px;
     border: 2px solid var(--color-third);
 }

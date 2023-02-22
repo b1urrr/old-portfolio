@@ -8,7 +8,7 @@ import projectItem from './imports';
 function Projects() {
 
     return (
-      <div className='pf__projects'>
+      <div className='pf__projects section__padding' id='projects'>
         <div className='pf__projects-header'>
           <h1>Projects</h1>
         </div>
